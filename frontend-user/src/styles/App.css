@@ -1,0 +1,75 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Landing Page */
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.landing-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.landing-text {
+  flex: 1;
+  padding: 60px 40px;
+}
+
+.landing-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+.landing-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.landing-text .whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.landing-text .whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+.landing-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.landing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
